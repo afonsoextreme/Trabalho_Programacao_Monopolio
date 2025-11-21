@@ -15,9 +15,23 @@ Estrutura do Projeto
       Game.cs
       Card.cs
     View/
-      IView.cs
       ConsoleView.cs
-      BoardRenderer.cs
     Controller/
       GameController.cs
       CommandHandler.cs
+
+
+
+Distribuição de tarefas:
+
+Afonso (A) — RJ, LJ, IJ
+Gestão de jogadores e estado base do jogo.
+António (B) — LD, PA, TT
+Movimentos, dados, turnos e eventos imediatos.
+Tomás (C) — CE, CC
+Compras de espaços e casas.
+Miguel (D) — TC, DJ
+Cartas, efeitos especiais e renderização do tabuleiro
+
+
+
