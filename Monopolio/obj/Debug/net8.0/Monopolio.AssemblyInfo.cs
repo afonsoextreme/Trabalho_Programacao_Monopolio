@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Monopolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+196ae9f9b35d4013ff29775318de62f853048181")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+352ce3f675da7e95fde7294c82290689590bec2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Monopolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Monopolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
