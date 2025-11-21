@@ -21,3 +21,15 @@ Estrutura do Projeto
     Controller/
       GameController.cs
       CommandHandler.cs
+
+
+
+ Distribuiçao de tarefas das interaçôes:
+
+ António-TT, CE, LD
+
+Afonso-RJ, DJ, Com,pila
+
+Tomás-IJ, TC 
+
+Miguel-LJ, CC, PA
