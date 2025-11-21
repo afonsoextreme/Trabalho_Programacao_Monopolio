@@ -15,9 +15,7 @@ Estrutura do Projeto
       Game.cs
       Card.cs
     View/
-      IView.cs
       ConsoleView.cs
-      BoardRenderer.cs
     Controller/
       GameController.cs
       CommandHandler.cs
