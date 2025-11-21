@@ -24,13 +24,13 @@ Estrutura do Projeto
 
 Distribuição de tarefas:
 
-Miguel (A) — RJ, LJ, IJ
+Afonso (A) — RJ, LJ, IJ
 Gestão de jogadores e estado base do jogo.
 António (B) — LD, PA, TT
 Movimentos, dados, turnos e eventos imediatos.
 Tomás (C) — CE, CC
 Compras de espaços e casas.
-Afonso (D) — TC, DJ
+Miguel (D) — TC, DJ
 Cartas, efeitos especiais e renderização do tabuleiro
 
 
