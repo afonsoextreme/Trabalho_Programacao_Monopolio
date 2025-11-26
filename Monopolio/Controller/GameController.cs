@@ -4,11 +4,18 @@ using System.Collections.Generic;
 public class GameController
 {
     // Lista de jogadores registados no jogo
-    private List<Player> players = new List<Player>();
+    private List<Player> players;
     private const int MaxPlayers = 5;
+    private Board board;
 
     // Regista um jogador com o nome fornecido e retorna o objecto Player criado.
     // Se já existir um jogador com o mesmo nome, devolve null.
+
+    public GameController()
+    {
+        players = new List<Player>();
+        board = new Board();
+    }
     public Player registarJogador(string nome)
     {
         // Não permitir mais do que MaxPlayers
@@ -49,4 +56,13 @@ public class GameController
 
     // Permite obter a lista (somente leitura) de jogadores registados
     public IReadOnlyList<Player> GetPlayers() => players.AsReadOnly();
+
+    // Aceder ao tabuleiro do jogo (instância única)
+    public Board GetBoard() => board;
+
+    // Imprime o tabuleiro actual
+    public void PrintBoard()
+    {
+        board.PrintBoard();
+    }
 }
